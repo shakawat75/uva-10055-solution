@@ -2,12 +2,12 @@
 using namespace std;
 
 int main(){
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
+    //freopen("input.txt","r",stdin);
+    //freopen("output.txt","w",stdout);
 
-int a,b;
+long long a,b;
 
-while(scanf("%d %d",&a,&b)==2){
+while(scanf("%lld %lld",&a,&b)==2){
     if(a>b)
         cout<<a-b<<endl;
     else
